@@ -47,7 +47,7 @@ public class Database
   }
   public void PrintAll()
   {
-    for(int i=0; i<=_currentIndex;i++)
+    for(int i=0; i<_currentIndex;i++)
     {
       People[i].Print();
     }
